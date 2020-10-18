@@ -4,9 +4,10 @@
 This is a simple maven spring boot project with no connectivity to any external or in-memory database. 
 This project is created for Tomtom's interview process for LLD problem of e-commerce system.
 commands to run:
-mvn clean install to install maven dependencies and generate target folder. It will also run basic test cases present
+mvn clean install //to install maven dependencies and generate target folder. It will also run basic test cases present
+ mvn spring-boot:run  // to start web server
  
-running class EcomBackendApplication will start the webserver on default 808 port
+running class EcomBackendApplication will start the webserver on default 808 port there is redirect added from base path to swagger-ui page
 
 ### Reference Documentation
 For further reference, please consider the following sections:
